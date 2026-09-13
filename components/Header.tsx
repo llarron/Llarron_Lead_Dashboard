@@ -15,12 +15,12 @@ export default function Header({ lastUpdated, isLoading, onRefresh }: HeaderProp
       <div className="header-branding">
         <div className="header-logo-container">
           <Image
-            src="/assets/llarron-logo.webp"
-            alt="Llarron"
-            width={120}
-            height={36}
+            src="/assets/llarron-logo.png"
+            alt="Llarron Logo"
+            width={180}
+            height={50}
             priority
-            style={{ width: 'auto', height: '32px', objectFit: 'contain' }}
+            style={{ width: 'auto', height: '40px', objectFit: 'contain' }}
           />
         </div>
         <div className="header-title-group">
